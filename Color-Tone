@@ -23,7 +23,7 @@ Note: Requires Processing Sound Library to Operate.
 
 void setup() {
   
-  String str = "";  //load the name of your image here.
+  String str = "color tone";  //load the name of your image here.
   
   for(int i = 0; i < fileTypes.length; i++)
     if(loadImage(str + fileTypes[i]) != null) {
